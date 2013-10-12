@@ -7,7 +7,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Formulario</title>
         <link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <style>
+        <style type="text/css">
             body {
               padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
             }
@@ -30,14 +30,7 @@
      -->
           <a class="brand" href="#">WebbApp</a>
           
-    <!--      <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-    -->
+  
         </div>
       </div>
     </div>
@@ -77,7 +70,7 @@
     <script src="public/jvalidate/jquery.validate.min.js"></script> 
     <script src="public/jvalidate/messages_es.js"></script> 
     
-    <script>
+    <script type="text/javascript">
         $(function(){
             $("#formulario").validate({
                rules: { 
